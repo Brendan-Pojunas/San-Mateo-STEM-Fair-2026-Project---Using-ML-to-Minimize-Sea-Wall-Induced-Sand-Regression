@@ -959,7 +959,7 @@ def main():
 
                 z_pts_current = z_new.copy()
                 successful += 1
-                print(f"\n✅ Completed successful Trial {trial_n}. Progress: {successful}/{TARGET_SUCCESSFUL_TRIALS}")
+                print(f"\n Completed successful Trial {trial_n}. Progress: {successful}/{TARGET_SUCCESSFUL_TRIALS}")
                 break
 
         print("\nALL DONE.")
@@ -974,3 +974,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
